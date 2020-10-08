@@ -1,0 +1,25 @@
+{
+    "name": "uxml",
+    "displayName": "Uxml-Code",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "uxml",
+            "aliases": ["uxml", "uxml"],
+            "extensions": [".uxml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "uxml",
+            "scopeName": "source.uxml",
+            "path": "./syntaxes/uxml.tmLanguage.json"
+        }]
+    }
+}
